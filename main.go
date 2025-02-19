@@ -144,9 +144,9 @@ func printHelp() {
 	fmt.Println("  -vT      <float>  Maximum volume in terabytes before stopping (overrides -n)")
 	fmt.Println("  --help            Show this help message and exit")
 	fmt.Println("\nExamples:")
-	fmt.Println("  go run main.go -n 100 -format json")
-	fmt.Println("  go run main.go -vB 1000000 -rate 5 -format csv")
-	fmt.Println("  go run main.go -vT 1 -format raw")
+	fmt.Println("  ./babel -n 100 -format json")
+	fmt.Println("  ./babel -vB 1000000 -rate 5 -format csv")
+	fmt.Println("  ./babel -vT 1 -format raw")
 	os.Exit(0)
 }
 
