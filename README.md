@@ -34,9 +34,9 @@ Options:
   --help            Show this help message and exit
 
 Examples:
-  go run main.go -n 100 -format json
-  go run main.go -vB 1000000 -rate 5 -format csv
-  go run main.go -vT 1 -format raw
+./babel -n 100 -format json
+./babel -vB 1000000 -rate 5 -format csv
+./babel -vT 1 -format raw
 ```
 
 ### Generate Logs by Number
@@ -55,7 +55,7 @@ The follow following uses -vT 500 to to specify that total volume of data to be 
 
 ### 1). Clone the repositroy
 ```
-git clone https://github.com/yourusername/babel.git
+git clone https://github.com/tylerg01/babel.git
 cd babel
 
 ```
