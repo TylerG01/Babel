@@ -28,15 +28,16 @@ Options:
   -n       <int>    Number of log events to generate (default: 10)
   -fmt  <string> Output format: csv, json, raw (default: csv)
   -f    <string> Output filename for CSV (default: logs.csv)
+  -dir <string> Output directory path (default: project folder)
   -r    <int>    Maximum events per second (0 = unlimited, default: 0)
   -vB      <int>    Maximum volume in bytes before stopping (overrides -n)
   -vT      <float>  Maximum volume in terabytes before stopping (overrides -n)
   --help            Show this help message and exit
 
 Examples:
-./babel -n 100 -format json
-./babel -vB 1000000 -rate 5 -format csv
-./babel -vT 1 -format raw
+./babel -n 100 -f json
+./babel -vB 1000000 -r 5 -format csv
+./babel -vT 1 -f raw
 ```
 
 ### Generate Logs by Number
