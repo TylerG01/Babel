@@ -1,3 +1,3 @@
-module log-generator
+module babel
 
 go 1.18
