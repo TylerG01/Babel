@@ -3,8 +3,8 @@ package main
 import (
 	"flag"
 	"fmt"
-	"log-generator/generator"
-	"log-generator/output"
+	"babel/generator"
+	"babel/output"
 	"os"
 	"path/filepath"
 )
