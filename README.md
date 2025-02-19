@@ -2,6 +2,9 @@
 Babel is a high-performance "dummy data load" generator, which mimics the schema of supported real-world data sources for testing, analysis, and security application development. The current version (v1.0, released 2025-02-17) generates logs in CSV, JSON, or RAW format with support for file size limits and rate limiting (coming soon). 
 
 The current version was built as a utility to support a security related homelab project, where volume, depth and closeness of data are required to adequately benchmark bandwidth, throughput and compute performance. However, due Babel's high performance and low compute requirement, it became of a project of its own. Currently, I'm working to enahnce the capabilities of Babel to offer a more broad range of data srouces, and to be run as a public cloud resource. 
+
+Check out [the project writeup on medium](https://t2-security.com/babel-a-high-performance-dummy-data-load-generator-214b153d2cf8). 
+
 #### Supported Datasources
 - Fotrinet FortiOS - 48 Log Message Fields
 - Zscaler ZIA DNS Logs - 17 Log Message Fields (in development)
@@ -9,6 +12,8 @@ The current version was built as a utility to support a security related homelab
 #### Features Currently in Development
 - Enhanced rate limiting to more closely mimic Events per Second(EPS) rate of continuous data sources.
 - Ability to set environmental variables from the CLI for the session; such as URI's, rate limites and paths by data source.
+
+
 
 ## Example Usage
 
