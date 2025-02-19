@@ -133,7 +133,7 @@ func generateLogEntry() LogEntry {
 }
 
 func printHelp() {
-	fmt.Println("Usage: log-generator [OPTIONS]")
+	fmt.Println("Usage: Babel [OPTIONS]")
 	fmt.Println("\nOptions:")
 	fmt.Println("  -n       <int>    Number of log events to generate (default: 10)")
 	fmt.Println("  -fmt  <string> Output format: csv, json, raw (default: csv)")
